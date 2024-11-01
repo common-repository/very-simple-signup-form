@@ -1,0 +1,27 @@
+/* Very Simple Signup Form stylesheet */
+
+/* Form */
+#vssf {width:100%; clear:both; margin:0; padding:0; border:0;}
+#vssf-anchor {clear:both;}
+
+/* Form elements */
+#vssf .form-group {clear:both; margin-bottom:15px;}
+#vssf .form-group label {margin-bottom:5px; display:block;}
+#vssf .form-group input {width:90%; font-size:1em;}
+#vssf .form-group button {}
+
+/* Error */
+#vssf .error {border-color:#ff0000; color:#ff0000;}
+
+/* Hide elements */
+#vssf .hide {display:none;}
+
+/* Success or fail message */
+.vssf-info {font-style:italic; font-size:1.20em;}
+
+/* Widget wrapper */
+.vssf-sidebar {}
+.vssf-sidebar:after {content:''; display:block; height:0; clear:both;}
+
+/* Widget text above form */
+.vssf-sidebar-text {clear:both;}
